@@ -17,7 +17,7 @@ export default function App() {
 
     try {
       // Talk directly to your local backend proxy server instead of Google
-      const res = await fetch('http://localhost:5000/api/chat', {
+      const res = await fetch('https://akshat-bot.onrender.com/api/chat', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
