@@ -1,17 +1,31 @@
-# 🤖 Gemini AI Chatbot
+# 🤖 Gemini AI Playground
 
-An AI-powered chatbot built using **React.js**, **Node.js**, **Express.js**, and the **Google Gemini API**. The chatbot provides real-time AI conversations through a clean and responsive user interface while securely handling API requests via the backend.
+A modern Full-Stack AI chatbot powered by **Google Gemini API**, built with **React.js**, **Node.js**, and **Express.js**. The application enables users to interact with Google's Gemini AI through a clean, responsive, and user-friendly interface while securely handling API requests on the backend.
 
 ---
 
-## 🚀 Features
+## 🌐 Live Demo
 
-- 💬 Real-time AI conversations
-- ⚡ Fast response generation using Google Gemini API
-- 🎨 Modern and responsive user interface
+🚀 **Try it here:** https://YOUR_VERCEL_URL.vercel.app
+
+---
+
+## 📂 Source Code
+
+GitHub Repository:  
+https://github.com/akshatpandey4/gemini-bot
+
+---
+
+## ✨ Features
+
+- 🤖 AI-powered conversations using Google Gemini API
+- ⚡ Real-time response generation
+- 🎨 Modern & responsive user interface
 - 🔒 Secure backend API integration
 - 📱 Mobile-friendly design
-- 🌙 Clean chat interface
+- 🌐 Full-stack architecture
+- ☁️ Cloud deployment using Vercel & Render
 
 ---
 
@@ -27,18 +41,28 @@ An AI-powered chatbot built using **React.js**, **Node.js**, **Express.js**, and
 - Node.js
 - Express.js
 
-### AI
+### AI Integration
 - Google Gemini API
+
+### Deployment
+- Vercel (Frontend)
+- Render (Backend)
+
+### Version Control
+- Git
+- GitHub
 
 ---
 
-## 📂 Project Structure
+## 📁 Project Structure
 
-```
+```text
 gemini-bot/
 │
 ├── public/
 ├── src/
+├── home.png
+├── chat.png
 ├── server.js
 ├── package.json
 ├── package-lock.json
@@ -50,44 +74,45 @@ gemini-bot/
 
 ## ⚙️ Installation
 
-### 1. Clone the repository
+### Clone the repository
 
 ```bash
 git clone https://github.com/akshatpandey4/gemini-bot.git
 ```
 
-### 2. Navigate to the project
+### Navigate into the project
 
 ```bash
 cd gemini-bot
 ```
 
-### 3. Install dependencies
+### Install dependencies
 
 ```bash
 npm install
 ```
 
-### 4. Create a `.env` file
+### Create a `.env` file
 
 ```env
-GEMINI_API_KEY
+REACT_APP_GEMINI_API_KEY=YOUR_GEMINI_API_KEY
+```
 
-### 5. Start the backend
+### Start the backend
 
 ```bash
 node server.js
 ```
 
-### 6. Start the React application
+### Start the frontend
 
 ```bash
 npm start
 ```
 
-The application will be available at:
+The application will run at:
 
-```
+```text
 http://localhost:3000
 ```
 
@@ -95,28 +120,58 @@ http://localhost:3000
 
 ## 📸 Screenshots
 
-> Add screenshots of your chatbot here after deployment.
+### 🏠 Home Page
+
+<p align="center">
+  <img src="home.png" width="900">
+</p>
+
+---
+
+### 💬 AI Response Example
+
+<p align="center">
+  <img src="chat.png" width="900">
+</p>
 
 ---
 
 ## 🔒 Security
 
-- API key is stored securely using environment variables.
-- Sensitive files are excluded using `.gitignore`.
-- Backend handles communication with the Gemini API.
+- API keys are stored securely using Environment Variables.
+- Sensitive files are excluded through `.gitignore`.
+- Backend securely communicates with the Google Gemini API.
+- API keys are never exposed in the frontend.
 
 ---
 
-## 🎯 Future Improvements
+## 📚 What I Learned
 
-- User Authentication
-- Chat History Storage
-- Dark/Light Theme
-- Voice Input
-- Image Upload Support
-- Markdown Rendering
-- Multiple AI Models
-- Export Chat Feature
+During this project, I gained hands-on experience with:
+
+- React.js
+- Node.js
+- Express.js
+- REST APIs
+- Google Gemini API Integration
+- Environment Variables
+- Frontend & Backend Communication
+- Git & GitHub
+- Cloud Deployment (Vercel & Render)
+
+---
+
+## 🚀 Future Improvements
+
+- 👤 User Authentication
+- 💾 Chat History
+- 🗄️ MongoDB Integration
+- 🌙 Dark / Light Theme
+- 🎤 Voice Input
+- 📎 File Upload Support
+- 🖼️ Image Generation
+- 📄 Markdown Rendering
+- 🔄 Multiple AI Models
 
 ---
 
@@ -124,13 +179,21 @@ http://localhost:3000
 
 **Akshat Pandey**
 
-B.Tech CSE Student | Full Stack Developer | AI Enthusiast
+🎓 B.Tech Computer Science & Engineering  
+Galgotias University
 
-GitHub:
+💻 Full Stack Developer | AI Enthusiast
+
+**GitHub:**  
 https://github.com/akshatpandey4
+
+**LinkedIn:**  
+https://www.linkedin.com/in/akshatpandey12
 
 ---
 
 ## ⭐ Support
 
-If you like this project, please consider giving it a ⭐ on GitHub.
+If you found this project useful, please consider giving it a ⭐ on GitHub.
+
+Feedback and suggestions are always welcome!
